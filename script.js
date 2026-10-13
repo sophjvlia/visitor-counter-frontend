@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
     fetch(API_URL)
         .then(response => response.json())
         .then(data => {
-            document.getElementById("visitor-count").textContent = data.body.count;
+            document.getElementById("visitor-count").textContent = data.count;
         })
         .catch(error => {
             console.error("Error fetching visitor count:", error);
