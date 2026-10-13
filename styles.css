@@ -4,8 +4,8 @@ body {
   line-height: 1.4;
   margin: 0;
   padding: 40px 20px;
-  background: #4d88b3;
-  background-image: radial-gradient(#CCE5FC 1px, transparent 1px);
+  background: #cce5fc;
+  background-image: radial-gradient(#4d88b3 1px, transparent 1px);
   background-size: 24px 24px;
   min-height: 100vh;
 }
@@ -127,4 +127,13 @@ ul.bullet-list {
 
 ul.bullet-list li {
     margin-bottom: 4px;
+}
+
+.visitor-count {
+    font-weight: 500;
+    margin: 2em auto 0 auto;
+    background: #cce5fc;
+    width: fit-content;
+    padding: .5em 1em;
+    border-radius: 5px;
 }
